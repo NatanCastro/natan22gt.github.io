@@ -1,0 +1,30 @@
+@import "_color";
+@import "_media";
+
+.games {
+  p {
+    text-align: center;
+    font-size: 24pt;
+  }
+  .card {
+    padding: 1rem 2rem;
+    
+    h2 {
+      font-size: 16pt;
+      text-align: center;
+      color: $color-dark;
+    }
+  }
+}
+.green {
+  background-color: $color-light;
+}
+
+.blue {
+  background-color: $color-medium;
+}
+
+
+.image {
+  height: 14rem;
+}

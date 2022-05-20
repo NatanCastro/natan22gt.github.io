@@ -1,0 +1,120 @@
+@use "_color";
+@media (min-width: 721px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media (max-width) {
+  .banner {
+    font-size: 0.5rem;
+  }
+  .footer {
+    font-size: 1.5rem;
+  }
+  .footer p {
+    font-size: 0.9rem;
+  }
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  nav {
+    display: none;
+  }
+  .menu {
+    font-size: 1.5rem;
+    color: #030303;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .menu.open {
+    position: fixed;
+    z-index: 2;
+    margin-left: 2rem;
+  }
+  .menu.open + nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 80%;
+    top: 0;
+    left: 0;
+    background-color: #ecececd5;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+  /* fale conosco*/
+  .faleconosco {
+    margin-top: 2rem;
+    margin-bottom: -40rem;
+  }
+  .contato h1 {
+    font-size: 2rem;
+  }
+  .lblnome {
+    width: 70%;
+    margin-left: 3.5rem;
+  }
+  .lblcel {
+    width: 70%;
+    margin-left: 3.5rem;
+  }
+  .lblemail {
+    width: 70%;
+    margin-left: 3.5rem;
+  }
+  .textoassunto {
+    width: 70%;
+    margin-left: 3.5rem;
+  }
+}
+
+.games p {
+  text-align: center;
+  font-size: 24pt;
+}
+
+.games .card {
+  padding: 1rem 2rem;
+}
+
+.games .card h2 {
+  font-size: 16pt;
+  text-align: center;
+  color: #030303;
+}
+
+.green {
+  background-color: #9fd3c7;
+}
+
+.blue {
+  background-color: #385170;
+}
+
+.image {
+  height: 14rem;
+}
+/*# sourceMappingURL=games.css.map */
